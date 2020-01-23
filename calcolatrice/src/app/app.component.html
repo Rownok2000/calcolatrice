@@ -1,0 +1,31 @@
+<form>
+  <div>
+    <label for="number1"></label>
+    <input type="number" name="numero1" #number1>&nbsp;&nbsp;number 1
+  </div>
+<br>
+  <div>
+    <label for="number2"></label>
+    <input type="number" name="numero2" #number2>&nbsp;&nbsp;number 2
+  </div>
+<br>
+  <button (click)="Somma(number1, number2)">
+  +
+  </button>
+  &nbsp;
+
+  <button (click)="Sottrazione(number1, number2)">
+  -
+  </button>
+  &nbsp;
+  <button (click)="Moltiplicazione(number1, number2)">
+  *
+  </button>
+  &nbsp;
+  <button (click)="Divisione(number1, number2)">
+  /
+  </button>
+<br>
+<app-ris></app-ris>
+</form>
+
